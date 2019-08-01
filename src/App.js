@@ -82,7 +82,6 @@ function Home() {
 //   }
   class Topic extends React.Component {
 	  render(){
-		  console.error(this)
 		return <h3>Requested Param: {this.props.match.params.id}</h3>;
 	  }
   }
